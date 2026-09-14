@@ -1,0 +1,342 @@
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>Agro Verdade | Combate às Fake News</title>
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">🌱 Agro<span>Verdade</span></div>
+
+
+            <ul class="menu">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#fake-news">Fake News</a></li>
+                <li><a href="#identificar">Como identificar</a></li>
+                <li><a href="#quiz">Quiz</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+
+
+        <!-- INÍCIO -->
+        <section id="inicio" class="hero">
+
+
+            <div class="hero-text">
+                <span class="tag">🌾 INFORMAÇÃO QUE GERA CONFIANÇA</span>
+
+
+                <h1>
+                    A verdade também
+                    <span>faz parte do agro.</span>
+                </h1>
+
+
+                <p>
+                    Descubra como as fake news podem afetar o agronegócio
+                    e aprenda a identificar informações falsas antes de
+                    compartilhá-las.
+                </p>
+
+
+                <a href="#fake-news" class="btn">
+                    Quero aprender
+                </a>
+            </div>
+
+
+            <div class="hero-card">
+                <div class="card-icon">📰</div>
+                <h3>Fake News no Agro</h3>
+                <p>
+                    Uma informação falsa pode alcançar milhares de pessoas
+                    em poucos minutos.
+                </p>
+            </div>
+
+
+        </section>
+
+
+
+
+        <!-- SOBRE FAKE NEWS -->
+        <section id="fake-news" class="section">
+
+
+            <div class="section-title">
+                <span>ENTENDA O PROBLEMA</span>
+                <h2>O que são Fake News?</h2>
+                <p>
+                    Fake news são informações falsas ou enganosas
+                    apresentadas como se fossem verdadeiras.
+                </p>
+            </div>
+
+
+            <div class="cards">
+
+
+                <article class="info-card">
+                    <div class="icon">📱</div>
+                    <h3>Redes sociais</h3>
+                    <p>
+                        As redes sociais facilitam a rápida circulação
+                        de informações verdadeiras e falsas.
+                    </p>
+                </article>
+
+
+                <article class="info-card">
+                    <div class="icon">⚠️</div>
+                    <h3>Informações enganosas</h3>
+                    <p>
+                        Manchetes exageradas podem distorcer dados
+                        e criar uma visão incorreta sobre o agro.
+                    </p>
+                </article>
+
+
+                <article class="info-card">
+                    <div class="icon">🌾</div>
+                    <h3>Impacto no agro</h3>
+                    <p>
+                        Notícias falsas podem prejudicar produtores,
+                        empresas e a percepção da sociedade sobre o setor.
+                    </p>
+                </article>
+
+
+            </div>
+
+
+        </section>
+
+
+
+
+        <!-- EXEMPLOS -->
+        <section class="examples">
+
+
+            <div class="section-title">
+                <span>FIQUE ATENTO</span>
+                <h2>Exemplos de Fake News</h2>
+            </div>
+
+
+            <div class="news-grid">
+
+
+                <article class="news-card fake">
+                    <div class="news-label">❌ FALSA</div>
+
+
+                    <h3>
+                        "Todo alimento produzido no agro brasileiro
+                        possui agrotóxicos acima do permitido."
+                    </h3>
+
+
+                    <p>
+                        Essa afirmação generaliza uma situação complexa.
+                        Os produtos agrícolas possuem regras e limites
+                        estabelecidos pelos órgãos responsáveis.
+                    </p>
+
+
+                    <button onclick="mostrarResposta(1)">
+                        Verificação
+                    </button>
+
+
+                    <div id="resposta1" class="verification">
+                        Informação enganosa: é necessário verificar
+                        a fonte e os dados utilizados na afirmação.
+                    </div>
+                </article>
+
+
+
+
+                <article class="news-card true">
+
+
+                    <div class="news-label">✅ VERDADEIRO</div>
+
+
+                    <h3>
+                        "O agronegócio possui grande importância
+                        para a economia brasileira."
+                    </h3>
+
+
+                    <p>
+                        O setor agropecuário possui participação relevante
+                        na economia e nas exportações brasileiras.
+                    </p>
+
+
+                    <button onclick="mostrarResposta(2)">
+                        Verificação
+                    </button>
+
+
+                    <div id="resposta2" class="verification">
+                        Verdadeiro: a informação pode ser confirmada
+                        através de dados oficiais e fontes confiáveis.
+                    </div>
+
+
+                </article>
+
+
+            </div>
+
+
+        </section>
+
+
+
+
+        <!-- COMO IDENTIFICAR -->
+        <section id="identificar" class="section">
+
+
+            <div class="section-title">
+                <span>APRENDA A VERIFICAR</span>
+                <h2>Como identificar uma Fake News?</h2>
+            </div>
+
+
+            <div class="steps">
+
+
+                <div class="step">
+                    <strong>01</strong>
+                    <h3>Confira a fonte</h3>
+                    <p>
+                        Veja quem publicou a informação e se o site
+                        é confiável.
+                    </p>
+                </div>
+
+
+                <div class="step">
+                    <strong>02</strong>
+                    <h3>Leia além do título</h3>
+                    <p>
+                        Manchetes podem ser sensacionalistas.
+                        Leia toda a notícia antes de tirar conclusões.
+                    </p>
+                </div>
+
+
+                <div class="step">
+                    <strong>03</strong>
+                    <h3>Procure outras fontes</h3>
+                    <p>
+                        Compare a informação com outras fontes
+                        independentes e confiáveis.
+                    </p>
+                </div>
+
+
+                <div class="step">
+                    <strong>04</strong>
+                    <h3>Não compartilhe sem verificar</h3>
+                    <p>
+                        Se você não tiver certeza, não espalhe
+                        a informação.
+                    </p>
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+
+
+
+        <!-- QUIZ -->
+        <section id="quiz" class="quiz-section">
+
+
+            <div class="quiz-box">
+
+
+                <span>🎯 TESTE SEUS CONHECIMENTOS</span>
+
+
+                <h2>Você consegue identificar uma Fake News?</h2>
+
+
+                <p>
+                    Faça um pequeno teste e descubra se você está
+                    preparado para identificar informações falsas.
+                </p>
+
+
+                <button class="btn" onclick="iniciarQuiz()">
+                    Começar Quiz
+                </button>
+
+
+                <div id="quiz-area"></div>
+
+
+            </div>
+
+
+        </section>
+
+
+    </main>
+
+
+
+
+    <footer>
+
+
+        <div class="footer-logo">
+            🌱 AgroVerdade
+        </div>
+
+
+        <p>
+            Informação, conhecimento e responsabilidade no agro.
+        </p>
+
+
+        <p class="copyright">
+            © 2026 AgroVerdade — Projeto educacional.
+        </p>
+
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
